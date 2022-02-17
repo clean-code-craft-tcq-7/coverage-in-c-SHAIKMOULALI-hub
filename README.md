@@ -1,10 +1,15 @@
-# Check and Alert based on types
+# Prove and Cover the code
 
-This exercise is based on the [BMS monitoring] domain.
+This project uses the
+[catch framework](https://github.com/catchorg/Catch2/blob/master/docs/tutorial.md#top)
+to test functionality.
 
-Expand the checks and alerts to take care of a variety of types.
+## The task
 
-## Open for Extensions
+Code coverage is low. Expand the tests to take care of the variations. Track and improve the coverage.
 
-How can you minimize the amount of work done to add a new type?
-Can you add without modifying existing code?
+Hint: Test the abstractions, instead of just end-to-end tests.
+
+Uncovered lines indicate an opportunity to write tests.
+
+> Caution: High coverage doesn't indicate no bugs!
