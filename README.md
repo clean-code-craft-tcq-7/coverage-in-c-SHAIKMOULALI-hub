@@ -24,6 +24,8 @@ This project uses the
 [catch framework](https://github.com/catchorg/Catch2/blob/master/docs/tutorial.md#top)
 to test functionality.
 
+The 'Build and Run' workflow stores coverage-data as an artifact in the workflow run. You can download it from GitHub Actions.
+
 ## The refactoring task
 
 Cyclomatic complexity is high in a few places. This indicates potential to steadily increase, as customers ask for changes and new features. Reduce the cyclomatic complexity. In future, it must be possible to add new features with less code-changes and re-testing.
